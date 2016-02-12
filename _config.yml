@@ -1,39 +1,43 @@
-slogan: "Yet another bootstrap theme."
+slogan: "万物之始，大道至简，衍化至繁"
 
-theme: cerulean
-inverse: inverse
+theme: bootstrap
+inverse: true
 
 menu:
-  - title: Archives
+  - title: 归档
     url: archives
     intro: "All the articles."
     icon: "fa fa-archive"
-  - title: Categories
+  - title: 分类
     url: categories
     intro: "All the categories."
     icon: "fa fa-folder"
-  - title: Tags
+  - title: 标签
     url: tags
     intro: "All the tags."
     icon: "fa fa-tags"
-  - title: About
+  - title: 关于
     url: about
     intro: "About me."
     icon: "fa fa-user"
+  - title: RSS
+    url: atom.xml
+    intro: "RSS Subscription"
+    icon: "fa fa-rss"
 
 links:
-  - title: Freemind
-    url: https://github.com/wzpan/freemind/
-    intro: "Freemind's Github repository."
-    icon: "fa fa-github"
-  - title: "My Github"
-    url: http://www.github.com/wzpan
-    intro: "My Github account."
+  - title: My Github
+    url: https://github.com/Greenwicher
+    intro: "Greenwicher's Github repository."
     icon: "fa fa-github"
   - title: "My LinkedIn"
-    url: http://www.linkedin.com/in/hahack
+    url: https://www.linkedin.com/in/weizhiliu
     intro: "My Linkin account."
     icon: "fa fa-linkedin"
+  - title: "My Douban"
+    url: http://www.douban.com/people/Greenwicher/
+    intro: "My Douban account."
+    icon: "fa fa-book"    
 
 widgets:
 - search
@@ -42,23 +46,28 @@ widgets:
 - recent_posts  
 - links
 
-rss: 
+rss: atom.xml
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname:
+duoshuo_shortname: greenwicher
+#google_analytics: UA-42890116-1
 
-# Analytics
+excerpt_link: 阅读全文
+
+addthis: #SNS分享，身在天朝，当然用“百度分享”，暂时默认，后面会介绍
+  enable: true
+
+# analytics
 google_analytics:
-  enable: false
-  siteid:
+  enable: true
+  siteid: UA-42890116-1
 baidu_tongji:
   enable: false
   siteid:
 
-# search
-# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+# Search
+swiftype_key: 
 
-# share widgets
+# share button
 bdshare: true
 jiathis: false
-
